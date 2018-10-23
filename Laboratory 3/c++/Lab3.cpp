@@ -8,8 +8,6 @@ void clrscr()
 }
 void check_bracket(std::string expression){
         int count = 0;
-
-        //char[] character = expression.toCharArray();
         char character[80];
         strcpy(character,expression.c_str());
         for (int i = 0; i < expression.length(); i++) {
